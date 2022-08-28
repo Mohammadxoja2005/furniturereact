@@ -1,0 +1,94 @@
+.trend {
+    width: 100%;
+    box-sizing: border-box; 
+    padding-bottom: 138px;
+}  
+
+.trend_back { 
+    background-color: #F6F6F6;
+    padding: 36px 0;
+}
+
+.container {
+    width: 91%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+}  
+
+.trend_img {
+    background-color: white;
+    padding: 147px 83px;
+    border-radius: 50%;
+}
+
+.trend_info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.trend_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 34px;
+    background-color: #8096BC;
+    color: white;
+    font-size: 16px;
+    font-weight: 400; 
+    font-family: opensans-medium;
+    cursor: pointer;
+    margin-bottom: 41px;
+}  
+
+.price {
+    font-size: 45px;
+    font-weight: 400; 
+    font-family: federo_regular;
+    margin-bottom: 28px;
+} 
+
+.span {
+    color: #8096BC;
+} 
+
+.des {
+    font-size: 16px;
+    font-weight: 300; 
+    font-family: opensans-medium;
+    color: #727272;
+    max-width: 428px;
+    margin-bottom: 36px;
+} 
+
+.trend_shop_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 17px; 
+    background-color: #434343; 
+    color: white; 
+    font-weight: 400; 
+    font-size: 16px;
+    font-family: opensans-medium; 
+    cursor: pointer;
+    margin-bottom: 26px;
+} 
+
+.trend_category {
+    display: flex;
+    gap: 26px;
+}  
+
+.trend_category_element {
+    padding: 12px 22px;
+    background-color: white;  
+    border: 0.1px solid #000000;
+}
+
+
+
+

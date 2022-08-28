@@ -1,11 +1,12 @@
 .items {
-    border: 2px solid red;
+    // border: 2px solid red;
     width: 100%; 
     box-sizing: border-box;
+    padding-bottom: 148px;
 } 
 
 .container {
-    border: 2px solid blue;
+    // border: 2px solid blue;
     width: 91%; 
     margin: auto;
 } 
@@ -16,6 +17,7 @@
     font-weight: 400; 
     font-size: 40px;
     color: #3A3A3A;
+    margin-bottom: 41px;
 } 
 
 .first_items {
@@ -23,6 +25,13 @@
     // justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+} 
+
+.second_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
     gap: 30px;
 }
 

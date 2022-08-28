@@ -36,13 +36,19 @@ const Hero: FC = () =>  {
   return (
     <div className={styles.hero} >
     <Carousel {...settings}>
-      <div className={styles.container} >
+      {
+        [1,2,3].map(() => {
+          return(
+            <div className={styles.container} >
             <img src={BACKGROUND} className={styles.hero_back}/>
             <div className={styles.hero_info}>
                 <h2 className={styles.hero_title} >Get ready for Our stylist chair</h2>
                 <div className={styles.hero_btn}>SHOP NOW</div>
              </div>
         </div> 
+          )
+        })
+      }
     </Carousel>
 
     </div>
