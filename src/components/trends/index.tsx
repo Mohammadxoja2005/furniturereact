@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import styles from "./index.module.scss";
+import styles from "./index.module.scss"; 
 import SOFA from "../../assets/images/sofa.png";
 import CLOCK from "../../assets/images/clock.png";
 
@@ -33,7 +33,7 @@ const Trend: FC = () => {
                             }
                         </div>
 
-                    </div>
+                    </div> 
 
                 </div>
             </div>

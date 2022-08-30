@@ -1,5 +1,6 @@
 import { FC } from 'react'
-import styles from "./index.module.scss";
+import styles from "./index.module.scss"; 
+import Products from '../../commons/products';
 import Carousel from "nuka-carousel";
 import CABINET from "../../assets/icons/cabinet.png";
 
@@ -50,10 +51,11 @@ const Categories: FC = () => {
                         })
                     }
                 </Carousel>
+                
                 </div>
 
                 <div className={styles.categories_to_show}>
-
+                 <Products />
                 </div>
 
             </div>

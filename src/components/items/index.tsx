@@ -1,5 +1,6 @@
 import {FC} from 'react'
 import styles from "./index.module.scss"; 
+import Products from '../../commons/products';
 import LAMP from "../../assets/images/lamp.png"; 
 import ROTATE from "../../assets/icons/rotate.png"; 
 import LIKE from "../../assets/icons/like.png"; 
@@ -10,8 +11,8 @@ const Items: FC = ()  => {
     <div className={styles.items} > 
      <h2 className={styles.items_title}>Best Seller Items</h2> 
         <div className={styles.container} >
-
-            <div className={styles.first_items}> 
+            <Products/>
+            {/* <div className={styles.first_items}> 
             {
                 [1,2,3,4].map(() => {
                     return (
@@ -33,7 +34,7 @@ const Items: FC = ()  => {
                 })
             }
                
-            </div> 
+            </div>  */}
 
             <div className={styles.second_items}>
             {

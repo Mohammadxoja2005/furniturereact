@@ -4,6 +4,7 @@ import Hero from "../../components/hero";
 import Items from '../../components/items';
 import Trend from '../../components/trends';
 import Categories from '../../components/categories';
+import Footer from '../../components/footer';
 
 const Main: FC = () => {
   return ( 
@@ -13,6 +14,7 @@ const Main: FC = () => {
        <Items />
        <Trend/> 
        <Categories/>
+       <Footer/>
     </Fragment>
   )
 }

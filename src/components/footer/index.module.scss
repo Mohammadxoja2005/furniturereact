@@ -1,0 +1,56 @@
+.footer {    
+    border: 2px solid red;   
+    width: 100%;
+    box-sizing: border-box;
+    padding: 61px 0 120px 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url('/src/assets/images/intrerior.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+} 
+
+.container {
+    border: 2px solid blue;
+    width: 91%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}   
+
+.footer_element {
+    display: flex;
+    flex-direction: column;
+} 
+
+.footer_element_title {
+    font-weight: 400; 
+    font-size: 24px;
+    font-family: opensans-medium;
+    color: #000000;
+    margin-bottom: 12px;
+}  
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} 
+
+.footer_links_element {
+    list-style: none;
+    font-weight: 400; 
+    font-size: 16px;
+    font-family: opensans-medium;
+    color: #8A8A8A;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+} 
+
+.footer_img {
+    margin-right: 15px;
+}
+
+
+
+
+
