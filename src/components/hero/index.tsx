@@ -1,7 +1,7 @@
 import {FC} from 'react' 
 import styles from "./index.module.scss";  
 import Carousel from "nuka-carousel"; 
-import BACKGROUND from "../../assets/images/bacKground.png"; 
+import BACKGROUND from "../../assets/images/background.png"; 
 import NEXT from "../../assets/icons/next.png"; 
 import PREV from "../../assets/icons/prev.png"; 
 
